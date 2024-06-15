@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="email"], input[type="password"], input[type="text"] {
+  @apply w-full border p-3 rounded-lg my-2;
+}
+
+p, h1, h2, h3 {
+  @apply text-[#444]
+}
